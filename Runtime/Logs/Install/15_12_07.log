@@ -1,0 +1,28 @@
+[ 2015-12-07T21:13:22+08:00 ] 14.131.226.130 /install.php?s=/index/complete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000359s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Use of undefined constant SITE_VERSION - assumed 'SITE_VERSION' /home/www/default/Runtime/Cache/Install/10930f5f1cfee0a18170b1bf78b206ef.php 第 11 行.
+NOTIC: [8] Use of undefined constant SITE_VERSION - assumed 'SITE_VERSION' /home/www/default/Runtime/Cache/Install/10930f5f1cfee0a18170b1bf78b206ef.php 第 12 行.
+NOTIC: [8] Use of undefined constant SITE_VERSION - assumed 'SITE_VERSION' /home/www/default/Runtime/Cache/Install/10930f5f1cfee0a18170b1bf78b206ef.php 第 13 行.
+NOTIC: [8] Use of undefined constant SITE_VERSION - assumed 'SITE_VERSION' /home/www/default/Runtime/Cache/Install/10930f5f1cfee0a18170b1bf78b206ef.php 第 17 行.
+NOTIC: [8] Use of undefined constant SITE_VERSION - assumed 'SITE_VERSION' /home/www/default/Runtime/Cache/Install/10930f5f1cfee0a18170b1bf78b206ef.php 第 20 行.
+NOTIC: [8] Undefined index: update /home/www/default/Runtime/Cache/Install/10930f5f1cfee0a18170b1bf78b206ef.php 第 41 行.
+NOTIC: [8] Undefined index: update /home/www/default/Runtime/Cache/Install/10930f5f1cfee0a18170b1bf78b206ef.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
