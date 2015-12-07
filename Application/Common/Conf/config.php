@@ -13,20 +13,19 @@
  */
 return array(
 		// 数据库配置
-		'DB_TYPE' => 'mysql', // 数据库类型		
-		'DB_HOST' => 'localhost', // 服务器地址
-		'DB_NAME' => 'weiphp3.0', // 数据库名
-		'DB_USER' => 'root', // 用户名
-		'DB_PWD' => '', // 密码
-		
-		'DB_PORT' => '3306', // 端口
-		'DB_PREFIX' => 'wp_', // 数据库表前缀
+        'DB_TYPE'   => 'mysql', // 数据库类型
+        'DB_HOST'   => 'mysql56.rdsmxaxdpurey85.rds.bj.baidubce.com', // 服务器地址
+        'DB_NAME'   => 'haozhixian', // 数据库名
+        'DB_USER'   => 'pchen', // 用户名
+        'DB_PWD'    => '1qazxsw2',  // 密码
+        'DB_PORT'   => '3306', // 端口
+        'DB_PREFIX' => 'wp_', // 数据库表前缀
 		'DB_PARAMS' => array (
 				\PDO::ATTR_CASE => \PDO::CASE_NATURAL 
 		),
 		
 		// 系统数据加密设置
-		'DATA_AUTH_KEY' => '-<S]=hnKDfI+wRZCesP3OQz#.diq!A@94>}xV%y/', // 默认数据加密KEY
+		'DATA_AUTH_KEY' => 'JF/aWK9(LrC.}Ncz:Db2YwV6M`_ThBp,@E+*IXP~', // 默认数据加密KEY
 		                                                               
 		// 调试配置
 		'SHOW_PAGE_TRACE' => false,
@@ -91,7 +90,4 @@ return array(
 				'exts' => 'jpg,gif,png,jpeg,zip,rar,tar,gz,7z,doc,docx,txt,xml,xls,xlsx,csv,pem,amr', // 允许上传的文件后缀
 				'rootPath' => './Uploads/Download/' 
 		) 
-); 
-
-
-
+);
