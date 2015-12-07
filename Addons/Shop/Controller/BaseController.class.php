@@ -10,7 +10,7 @@ class BaseController extends AddonsController {
 		parent::_initialize ();
 		// 获取当前登录的用户的商城
 		$map ['token'] = get_token ();
-		$map ['manamger_id'] = $this->mid;
+		//$map ['manamger_id'] = $this->mid;
 		$this->shop_id = 0;
 		
 		$currentShopInfo = M ( 'shop' )->where ( $map )->find ();
