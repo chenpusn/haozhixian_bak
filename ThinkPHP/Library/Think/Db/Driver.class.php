@@ -99,7 +99,7 @@ abstract class Driver {
                 }
                 if(version_compare(PHP_VERSION,'5.3.6','<=')){ 
                     // 禁用模拟预处理语句
-                    $this->options[PDO::ATTR_EMULATE_PREPARES]  =   false;
+                    // $this->options[PDO::ATTR_EMULATE_PREPARES]  =   false;
                 }
                 $this->linkID[$linkNum] = new PDO( $config['dsn'], $config['username'], $config['password'],$this->options);
             }catch (\PDOException $e) {
