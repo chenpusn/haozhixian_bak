@@ -126,7 +126,7 @@ class InstallController extends Controller{
         }
 
         if(session('error')){
-            //show_msg();
+            show_msg();
         } else {
             session('step', 3);
             $this->redirect('Index/complete');
